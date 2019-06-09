@@ -29,7 +29,7 @@
         "enabled": "Habilitado",
         "disabled":"Desabilitado",
         "info": "Descripcion",
-        "selectNodes": "Click  en los nodos para seleccionar"
+        "selectNodes": "Click en los nodos para seleccionar"
     },
     "menu": {
         "label": {
@@ -107,7 +107,7 @@
         "warnings": {
             "undeployedChanges": "node no ha desplegado los cambios",
             "nodeActionDisabled": "acciones node desabilitadas",
-            "nodeActionDisabledSubflow": "node actions disabled within subflow",
+            "nodeActionDisabledSubflow": "node actions desabilitado within subflow",
             "missing-types": "<p>Flujos parados debido tipos que faltan.</p>",
             "safe-mode":"<p>Flujos parados en modo seguro.</p><p>You can modify your flows and desplegar the Cambios to restart.</p>",
             "restartRequired": "tienes que reiniciar Node-RED para habilitar los nodos actualizados",
@@ -130,27 +130,27 @@
             "failedToAppendNode": "<p>fallo al cargar '__module__'</p><p>__error__</p>"
         },
         "project": {
-            "change-branch": "Change to local branch '__project__'",
-            "merge-abort": "Git merge aborted",
-            "loaded": "Project '__project__' loaded",
-            "updated": "Project '__project__' updated",
-            "pull": "Project '__project__' reloaded",
-            "revert": "Project '__project__' reverted",
-            "merge-complete": "Git merge completed",
-            "setupCredentials": "Setup credentials",
-            "setupProjectFiles": "Setup project files",
-            "no": "No thanks",
-            "createDefault": "Create default project files",
-            "mergeConflict": "Show merge conflicts"
+            "change-branch": "Cambiar a rama local '__project__'",
+            "merge-abort": "union con Git abortada",
+            "loaded": "Proyecto '__project__' cargado",
+            "updated": "Proyecto '__project__'actualizado",
+            "pull": "Proyecto '__project__' recargado",
+            "revert": "Proyecto '__project__' reverted",
+            "merge-complete": "union Git completada",
+            "setupCredentials": "Configurar credenciales credentials",
+            "setupProjectFiles": "Configurar archivos del proyecto",
+            "no": "No gracias",
+            "createDefault": "Crear archvos de proyecto por defecto",
+            "mergeConflict": "mostar conflictos al unir"
         },
         "label": {
-            "manage-project-dep": "Manage project dependencies",
-            "setup-cred": "Setup credentials",
-            "setup-project": "Setup project files",
-            "create-default-package": "Create default package file",
-            "no-thanks": "No thanks",
-            "create-default-project": "Create default project files",
-            "show-merge-conflicts": "mostrar merge conflicts"
+            "manage-project-dep": "Gestionar dependencias dle proyecto",
+            "setup-cred": "Configurar credenciales",
+            "setup-project": "Configurar archivos del proyecto",
+            "create-default-package": "Configurarpaquete por defectoo",
+            "no-thanks": "No gracias",
+            "create-default-project": "Crear archvos de proyecto por defecto",
+            "show-merge-conflicts": "mostar conflictos al unir"
         }
     },
     "clipboard": {
@@ -270,13 +270,13 @@
         "viewCommitDiff": "ver confirmados Cambios",
         "compareChanges": "Comparar Cambios",
         "saveConflict": "Salvar resolucion de conflictos",
-        "conflictHeader": "<span>__resolved__</span> of <span>__unresolved__</span> conflicts resolved",
-        "commonVersionError": "Common Version doesn't contain valid JSON:",
-        "oldVersionError": "Old Version doesn't contain valid JSON:",
-        "newVersionError": "nuevo Version doesn't contain valid JSON:"
+        "conflictHeader": "<span>__resolved__</span> de <span>__unresolved__</span> conflictos resueltos",
+        "commonVersionError": "Version anterior no tiene un formato JSON valido:",
+        "oldVersionError": "Version anterior no tiene un formato JSON valido:",
+        "newVersionError": "nueva Version no tiene un formato JSON valido:"
     },
     "subflow": {
-        "editSubflowInstance": "Edit subflow instance: __name__",
+        "editSubflowInstance": "Editar instancia de subflujo: __name__",
         "editSubflow": "Editar plantilla de subflujo: __name__",
         "edit": "Editar plantilla de subflujo",
         "subflowInstances": "Hay __count__ instancia de esta plantilla de subflujo",
@@ -289,12 +289,12 @@
         "info": "Descripcion",
         "category": "Categoria",
         "env": {
-            "restore": "Restore to subflow default",
-            "remove": "Remove entorno variable"
+            "restore": "REstaurar a parametros por defecto",
+            "remove": "Remover variable de entorno"
         },
         "errors": {
-            "noNodesSelected": "<strong>Cannot create subflow</strong>: no nodos selected",
-            "multipleInputsToSelection": "<strong>Cannot create subflow</strong>: multiple inputs to selection"
+            "noNodesSelected": "<strong>No se puede crear sub-flujo</strong>: no hay nodos seleccionados",
+            "multipleInputsToSelection": "<strong>No se puede crear sub-flujo</strong>: multiple Entradas to selection"
         }
     },
     "editor": {
@@ -304,213 +304,213 @@
         "configDelete": "Borrar",
         "nodesUse": "__count__ nodo usa esta configuracion",
         "nodesUse_plural": "__count__ nodos usan esta configuracion",
-        "addNewConfig": "A&ntilde;adir nuevo __type__ config nodo",
+        "addNewConfig": "A&ntilde;adir nuevo __type__ config. nodo",
         "editNode": "Edit __type__ nodo",
-        "editConfig": "Edit __type__ config nodo",
+        "editConfig": "Edit __type__ config. nodo",
         "addNewType": "A&ntilde;adir nuevo __type__...",
-        "nodeProperties": "nodo properties",
-        "label": "Label",
-        "portLabels": "Port labels",
-        "labelInputs": "Inputs",
-        "labelOutputs": "Outputs",
+        "nodeProperties": "propiedades del nodo",
+        "label": "Etiqueta",
+        "portLabels": "Etiquetar puertos",
+        "labelInputs": "Entradas",
+        "labelOutputs": "Salidas",
         "settingIcon": "Icon",
-        "noDefaultLabel": "none",
-        "defaultLabel": "use defecto label",
-        "searchIcons": "Search icons",
-        "useDefault": "use defecto",
-        "description": "Description",
+        "noDefaultLabel": "nada",
+        "defaultLabel": "usar etiqueta por defecto",
+        "searchIcons": "Buscar iconos",
+        "useDefault": "usar valores por defecto",
+        "description": "Descripcion",
         "show": "mostrar",
         "hide": "ocultar",
         "errors": {
             "scopeChange": "Changing the scope will make it unavailable to nodos in other flows that use it",
-            "invalidProperties": "Invalid properties:"
+            "invalidProperties": "propiedades no validas"
         }
     },
     "keyboard": {
         "title": "Atajos de teclado",
         "keyboard": "Teclado",
-        "filterActions": "filter actions",
-        "shortcut": "shortcut",
+        "filterActions": "filtro de acciones",
+        "shortcut": "atajos",
         "scope": "scope",
-        "unassigned": "Unassigned",
+        "unassigned": "Sin asignar",
         "global": "global",
-        "workspace": "workspace",
-        "selectAll": "Select all nodos",
-        "selectAllConnected": "Select all connected nodos",
-        "addRemoveNode": "A&ntilde;adir/remove node from selection",
-        "editSelected": "Edit selected nodo",
-        "deleteSelected": "Delete selected nodos or link",
+        "workspace": "espacio de trabajo",
+        "selectAll": "Selecionar todos los nodos",
+        "selectAllConnected": "Selecionar todos los nodos conectados",
+        "addRemoveNode": "A&ntilde;adir/remove nodos desde seleccion",
+        "editSelected": "Editar nodo seleccionado",
+        "deleteSelected": "Borrar enlaces o nodos seleccionados",
         "importNode": "Importar nodos",
-        "exportNode": "Export nodos",
-        "nudgeNode": "Move selected nodos (1px)",
-        "moveNode": "Move selected nodos (20px)",
-        "toggleSidebar": "Toggle sidebar",
-        "togglePalette": "Toggle palette",
-        "copyNode": "Copy selected nodos",
-        "cutNode": "Cut selected nodos",
-        "pasteNode": "Paste nodos",
-        "undoChange": "Undo the last change performed",
-        "searchBox": "Open search box",
-        "managePalette": "Manage palette"
+        "exportNode": "Exportar nodos",
+        "nudgeNode": "Mover nodos seleccionados (1px)",
+        "moveNode": "Mover nodos seleccionados (20px)",
+        "toggleSidebar": "mostar/ocultar Barra lateral",
+        "togglePalette": "mostar/ocultar paleta",
+        "copyNode": "Copiar nodos seleccionados",
+        "cutNode": "Cortar nodos seleccionados",
+        "pasteNode": "Pegar nodos",
+        "undoChange": "Desacer ultimo cambio realizado",
+        "searchBox": "Abrir cueadro de busqueda",
+        "managePalette": "Gestionar paleta"
     },
     "library": {
         "library": "Libreria",
         "openLibrary": "Abrir libreria...",
         "saveToLibrary": "Salvar en Libreria...",
-        "typeLibrary": "__type__ library",
-        "unnamedType": "Unnamed __type__",
-        "exportedToLibrary": "Nodos exportadosa la libreria",
-        "dialogSaveOverwrite": "A __libraryType__ called __libraryName__ already exists. Overwrite?",
-        "invalidFilename": "Invalid filename",
-        "savedNodes": "Saved nodos",
-        "savedType": "Saved __type__",
-        "saveFailed": "Save failed: __message__",
+        "typeLibrary": "__type__ libreria",
+        "unnamedType": "Sin nombre __type__",
+        "exportedToLibrary": "Nodos exportados a la libreria",
+        "dialogSaveOverwrite": "Un __libraryType__ llamado __libraryName__ ya existe. sobreescribir?",
+        "invalidFilename": "Nombre de archivo no valido",
+        "savedNodes": "nodos Salvados",
+        "savedType": "__type__ Salvado",
+        "saveFailed": "Error al salvar: __message__",
         "types": {
             "local": "Local",
-            "examples": "Examples"
+            "examples": "Ejemplos"
         }
     },
     "palette": {
         "noInfo": "no informacion available",
         "filter": "filter nodos",
-        "search": "search modules",
+        "search": "Buscar modules",
         "addCategory": "A&ntilde;adir nuevo...",
         "label": {
             "subflows": "subflows",
-            "input": "input",
-            "output": "output",
+            "input": "entrada",
+            "output": "salida",
             "function": "function",
             "social": "social",
-            "storage": "storage",
-            "analysis": "analysis",
-            "advanced": "advanced"
+            "storage": "almacenamiento",
+            "analysis": "analisis",
+            "advanced": "avanzado"
         },
         "actions": {
-            "collapse-all": "Collapse all categories",
-            "expand-all": "Expand all categories"
+            "collapse-all": "Contraer todas las categorias",
+            "expand-all": "Expandor todas las categorias"
         },
         "event": {
-            "nodeAdded": "nodo A&ntilde;adidaed to palette:",
-            "nodeAdded_plural": "nodos A&ntilde;adida to palette:",
-            "nodeRemoved": "nodo removed from palette:",
-            "nodeRemoved_plural": "nodos removed from palette:",
-            "nodeEnabled": "nodo enabled:",
-            "nodeEnabled_plural": "nodos enabled:",
-            "nodeDisabled": "nodo disabled:",
-            "nodeDisabled_plural": "nodos disabled:",
-            "nodeUpgraded": "nodo module __module__ upgraded to version __version__"
+            "nodeAdded": "nodo A&ntilde;adido a la paleta :",
+            "nodeAdded_plural": "nodos A&ntilde;adidos a la paleta:",
+            "nodeRemoved": "nodo borrado en la paleta:",
+            "nodeRemoved_plural": "nodo borrados en la paleta:",
+            "nodeEnabled": "nodo habilitado:",
+            "nodeEnabled_plural": "nodos habilitados:",
+            "nodeDisabled": "nodo desabilitado:",
+            "nodeDisabled_plural": "nodos desabilitados:",
+            "nodeUpgraded": "nodo __module__ actualizado a la version __version__"
         },
         "editor": {
-            "title": "Manage palette",
-            "palette": "Palette",
+            "title": "Gestionar paleta",
+            "palette": "Paleta",
             "times": {
-                "seconds": "seconds ago",
-                "minutes": "minutes ago",
-                "minutesV": "__count__ minutes ago",
-                "hoursV": "__count__ hour ago",
-                "hoursV_plural": "__count__ hours ago",
-                "daysV": "__count__ day ago",
-                "daysV_plural": "__count__ days ago",
-                "weeksV": "__count__ week ago",
-                "weeksV_plural": "__count__ weeks ago",
-                "monthsV": "__count__ month ago",
-                "monthsV_plural": "__count__ months ago",
-                "yearsV": "__count__ year ago",
-                "yearsV_plural": "__count__ years ago",
-                "yearMonthsV": "__y__ year, __count__ month ago",
-                "yearMonthsV_plural": "__y__ year, __count__ months ago",
-                "yearsMonthsV": "__y__ years, __count__ month ago",
-                "yearsMonthsV_plural": "__y__ years, __count__ months ago"
+                "seconds": "segundos transcurridos",
+                "minutes": "minutos transcurridos",
+                "minutesV": "__count__ minutos transcurridos",
+                "hoursV": "__count__ horas transcurridas",
+                "hoursV_plural": "__count__ horas pasadas",
+                "daysV": "__count__ dias pasados",
+                "daysV_plural": "__count__ dias pasados",
+                "weeksV": "__count__ week transcurrida",
+                "weeksV_plural": "__count__ weeks transcurridas",
+                "monthsV": "__count__ month transcurrido",
+                "monthsV_plural": "__count__ months transcurridos",
+                "yearsV": "__count__ año transcurrido",
+                "yearsV_plural": "__count__ años transcurridos",
+                "yearMonthsV": "__y__ year, __count__ mes transcurrido",
+                "yearMonthsV_plural": "__y__ year, __count__ meses transcurridos",
+                "yearsMonthsV": "__y__ years, __count__ mes transcurrido",
+                "yearsMonthsV_plural": "__y__ years, __count__ meses transcurridos"
             },
             "nodeCount": "__label__ nodo",
             "nodeCount_plural": "__label__ nodos",
-            "moduleCount": "__count__ module available",
-            "moduleCount_plural": "__count__ modules available",
-            "inuse": "in use",
-            "enableall": "enable all",
-            "disableall": "disable all",
-            "enable": "enable",
-            "disable": "disable",
-            "remove": "remove",
-            "update": "update to __version__",
-            "updated": "updated",
-            "install": "install",
-            "installed": "installed",
-            "conflict": "conflict",
-            "conflictTip": "<p>This module cannot be installed as it includes a<br/>nodo type that has already been installed</p><p>Conflicts with <code>__module__</code></p>",
-            "loading": "Loading catalogues...",
+            "moduleCount": "__count__ modulo disponible",
+            "moduleCount_plural": "__count__ modulos disponibles",
+            "inuse": "en uso",
+            "enableall": "habilitar todos",
+            "disableall": "desabilitar all",
+            "enable": "habilitar",
+            "disable": "desabilitar",
+            "remove": "remover",
+            "update": "actualizar a __version__",
+            "updated": "actualizado",
+            "install": "instalar",
+            "installed": "instalado",
+            "conflict": "conflicto",
+            "conflictTip": "<p>Este modulo no puede ser instalado porque incluye<br/>un tipo de nodo que ya ha sido instalado</p><p>Conflicto con <code>__module__</code></p>",
+            "loading": "Cargando catalogos...",
             "tab-nodes": "nodos",
-            "tab-install": "Install",
-            "sort": "sort:",
+            "tab-install": "Instalar",
+            "sort": "Ordenar:",
             "sortAZ": "a-z",
-            "sortRecent": "recent",
-            "more": "+ __count__ more",
+            "sortRecent": "reciente",
+            "more": "+ __count__ mas",
             "errors": {
-                "catalogLoadFailed": "<p>Failed to load node catalogue.</p><p>Check the browser console for more information</p>",
-                "installFailed": "<p>Failed to install: __module__</p><p>__message__</p><p>Check the log for more information</p>",
-                "removeFailed": "<p>Failed to remove: __module__</p><p>__message__</p><p>Check the log for more information</p>",
-                "updateFailed": "<p>Failed to update: __module__</p><p>__message__</p><p>Check the log for more information</p>",
-                "enableFailed": "<p>Failed to enable: __module__</p><p>__message__</p><p>Check the log for more information</p>",
-                "disableFailed": "<p>Failed to disable: __module__</p><p>__message__</p><p>Check the log for more information</p>"
+                "catalogLoadFailed": "<p>Fallo al cargar catalogo de nodos.</p><p>Comprueba la consola del navegador para mas informacion</p>",
+                "installFailed": "<p>Fallo al onstalar: __module__</p><p>__message__</p><p>Comprueba el log para mas informacion</p>",
+                "removeFailed": "<p>Fallo al remove: __module__</p><p>__message__</p><p>Comprueba el log para mas informacion</p>",
+                "updateFailed": "<p>Fallo al actualizar: __module__</p><p>__message__</p><p>Comprueba el log para mas informacion</p>",
+                "enableFailed": "<p>Fallo al habilitar: __module__</p><p>__message__</p><p>Comprueba el log para mas informacion</p>",
+                "disableFailed": "<p>Fallo al desabilitar: __module__</p><p>__message__</p><p>Comprueba el log para mas informacion</p>"
             },
             "confirm": {
                 "install": {
-                    "body":"<p>Installing '__module__'</p><p>Before installing, please read the node's documentation. Some nodes have dependencies that cannot be automatically resolved and can require a restart of Node-RED.</p>",
-                    "title": "Install nodos"
+                    "body":"<p>Instalando '__module__'</p><p>Antes de instalar lee la documentacion. Algunos nodos tienen dependencias que no se pueden resolver automaticamente y requieren un reinicio de Node-RED.</p>",
+                    "title": "Instalar nodos"
                 },
                 "remove": {
-                    "body":"<p>Removing '__module__'</p><p>Removing the nodo will uninstall it from Node-RED. The nodo may continue to use resources until Node-RED is restarted.</p>",
-                    "title": "Remove nodos"
+                    "body":"<p>Borrando '__module__'</p><p>Borrar el nodo lo dRemoving the nodo lo desistalara de Node-RED. El nodo puede contuar usanado recursos hasta que se rinicie Node-RED.</p>",
+                    "title": "Borrar nodos"
                 },
                 "update": {
-                    "body":"<p>Updating '__module__'</p><p>Updating the nodo will require a restart of Node-RED to complete the update. This must be done manually.</p>",
-                    "title": "Update nodos"
+                    "body":"<p>Actualizar '__module__'</p><p>Actualizar un nodo puede solicitar que reinicies Node-RED para completar la actualizacion. Esto se tiene que hacer manualmente.</p>",
+                    "title": "actualizar nodos"
                 },
                 "cannotUpdate": {
-                    "body":"An update for this nodo is available, but it is not installed in a location that the palette manager can update.<br/><br/>Please refer to the documentation for how to update this nodo."
+                    "body":"una actualizacion de este esta disponible, pero no se instalara en una localizacion accesible por el gestor de paleta.<br/><br/>Mira en la documentacion para averiguar como actualizar este nodo."
                 },
                 "button": {
-                    "review": "Open nodo information",
-                    "install": "Install",
-                    "remove": "Remove",
-                    "update": "Update"
+                    "review": "Abrir informacion del nodo",
+                    "install": "Instalar",
+                    "remove": "borrar",
+                    "update": "actualizar"
                 }
             }
         }
     },
     "sidebar": {
         "info": {
-            "name": "nodo information",
-            "tabName": "Name",
+            "name": "informacion nodo",
+            "tabName": "Nombre",
             "label": "info",
             "node": "nodo",
-            "type": "Type",
-            "module": "Module",
+            "type": "Tipo",
+            "module": "Modulo",
             "id": "ID",
-            "status": "Status",
-            "enabled": "Enabled",
-            "disabled": "Disabled",
+            "status": "Estado",
+            "enabled": "desabilitado",
+            "disabled": "desabilitado",
             "subflow": "Subflow",
-            "instances": "Instances",
-            "properties": "Properties",
+            "instances": "Instancias",
+            "properties": "Propiedades",
             "info": "Informacion",
             "desc": "Descripcion",
             "blank": "blank",
             "null": "null",
             "showMore": "mostrar mas",
             "showLess": "mostrar menos",
-            "flow": "Flow",
-            "selection":"Selection",
+            "flow": "Flujo(Flow)",
+            "selection":"Seleccion",
             "nodes":"__count__ nodos",
-            "flowDesc": "Flow Description",
-            "subflowDesc": "Subflow Description",
-            "nodeHelp": "nodo Help",
-            "none":"None",
-            "arrayItems": "__count__ items",
-            "showTips":"You can open the tips from the settings panel"
+            "flowDesc": "Descripion flujo",
+            "subflowDesc": "Descripcion subflujo",
+            "nodeHelp": "ayuda nodo",
+            "none":"Nada",
+            "arrayItems": "__count__ elementos",
+            "showTips":"Puedes abrir los trucos en el panel de configuracion"
         },
         "config": {
-            "name": "nodos Configuration",
+            "name": "nodos de Configuration",
             "label": "config",
             "global": "en todos los flujos",
             "none": "nada",
@@ -521,27 +521,27 @@
             "filtered": "__count__ ocultos"
         },
         "context": {
-            "name":"Context Data",
-            "label":"context",
-            "none": "none selected",
-            "refresh": "refresh to load",
-            "empty": "empty",
-            "node": "nodo",
-            "flow": "Flow",
+            "name":"datos Contexto",
+            "label":"Contexto",
+            "none": "none seleccionados",
+            "refresh": "Refrescar para cargar",
+            "empty": "vacio",
+            "node": "Nodo(Node)",
+            "flow": "Flujo(Flow)",
             "global": "Global",
-            "deleteConfirm": "eres borrar este elemento?",
-            "autoRefresh": "Auto-refresh"
+            "deleteConfirm": "quieres borrar este elemento?",
+            "autoRefresh": "Auto-refresco"
         },
         "palette": {
-            "name": "Palette management",
-            "label": "palette"
+            "name": "Gestor de Palette",
+            "label": "Paleta"
         },
         "project": {
-            "label": "project",
-            "name": "Project",
-            "description": "Description",
-            "dependencies": "Dependencies",
-            "settings": "Settings",
+            "label": "projecto",
+            "name": "Projecto",
+            "description": "Descripcion",
+            "dependencies": "Dependencias",
+            "settings": "Configuracion",
             "noSummaryAvailable": "No summary available",
             "editDescription": "Edit project description",
             "editDependencies": "Edit project dependencies",
@@ -563,8 +563,8 @@
                 "fileNotExist":"File does not exist",
                 "selectFile": "Select File",
                 "invalidEncryptionKey": "Invalid encryption key",
-                "encryptionEnabled": "Encryption enabled",
-                "encryptionDisabled": "Encryption disabled",
+                "encryptionEnabled": "Encryption desabilitada",
+                "encryptionDisabled": "Encryption desabilitada",
                 "setTheEncryptionKey": "Set the encryption key",
                 "resetTheEncryptionKey": "Reset the encryption key",
                 "changeTheEncryptionKey": "Change the encryption key",
@@ -691,14 +691,14 @@
     },
     "typedInput": {
         "type": {
-            "str": "string",
-            "num": "number",
-            "re": "regular expression",
-            "bool": "boolean",
+            "str": "cadena(string)",
+            "num": "numero",
+            "re": "expresion regular",
+            "bool": "Verdadero/Falseo(boolean)",
             "json": "JSON",
             "bin": "buffer",
-            "date": "timestamp",
-            "jsonata": "expression",
+            "date": "marcatiempo",
+            "jsonata": "expresion",
             "env": "env variable"
         }
     },
@@ -706,59 +706,59 @@
         "add": "A&ntilde;adir"
     },
     "search": {
-        "empty": "No matches found",
+        "empty": "sin coincidencias",
         "addNode": "A&ntilde;adir a nodo..."
     },
     "expressionEditor": {
-        "functions": "Functions",
-        "functionReference": "Function reference",
-        "insert": "Insert",
-        "title": "JSONata Expression editor",
+        "functions": "Functiones",
+        "functionReference": "referencia Function",
+        "insert": "Insertar",
+        "title": "Editor Expresiones JSONata  editor",
         "test": "Test",
-        "data": "Example message",
-        "result": "Result",
-        "format": "format expression",
-        "compatMode": "Compatibility mode enabled",
-        "compatModeDesc": "<h3>JSONata compatibility mode</h3><p> The current expression appears to still reference <code>msg</code> so will be evaluated in compatibility mode. Please update the expression to not use <code>msg</code> as this mode will be removed in the future.</p><p> When JSONata support was first added to Node-RED, it required the expression to reference the <code>msg</code> object. For example <code>msg.payload</code> would be used to access the payload.</p><p> That is no longer necessary as the expression will be evaluated against the message directly. To access the payload, the expression should be just <code>payload</code>.</p>",
-        "noMatch": "No matching result",
+        "data": "mensaje ejemplo",
+        "result": "Resultado",
+        "format": "formatear expresion",
+        "compatMode": "Modo compatibilidad desabilitado",
+        "compatModeDesc": "<h3>Modo compatibilidad JSONata</h3><p> The current expression appears to still reference <code>msg</code> so will be evaluated in compatibility mode. Please actualizar the expression to not use <code>msg</code> as this mode will be removed in the future.</p><p> When JSONata support was first added to Node-RED, it required the expression to reference the <code>msg</code> object. For example <code>msg.payload</code> would be used to access the payload.</p><p> That is no longer necessary as the expression will be evaluated against the message directly. To access the payload, the expression should be just <code>payload</code>.</p>",
+        "noMatch": "Sin resultados",
         "errors": {
             "invalid-expr": "Invalid JSONata expression:\n  __message__",
             "invalid-msg": "Invalid example JSON message:\n  __message__",
-            "context-unsupported": "Cannot test context functions\n $flowContext or $globalContext",
+            "context-unsupported": "Cannot test Contexto functions\n $flowContext or $globalContext",
             "eval": "Error evaluating expression:\n  __message__"
         }
     },
     "jsEditor": {
-        "title": "JavaScript editor"
+        "title": "editor JavaScript"
     },
     "textEditor": {
-        "title": "Text editor"
+        "title": "editor Texto"
     },
     "jsonEditor": {
-        "title": "JSON editor",
-        "format": "format JSON"
+        "title": "editor JSON",
+        "format": "formatear JSON"
     },
     "markdownEditor": {
-        "title": "Markdown editor",
-        "format": "Formatted with markdown",
+        "title": "editor Markdown",
+        "format": "Formatear con markdown",
         "heading1": "Heading 1",
         "heading2": "Heading 2",
         "heading3": "Heading 3",
-        "bold": "Bold",
-        "italic": "Italic",
-        "code": "Code",
-        "ordered-list": "Ordered list",
-        "unordered-list": "Unordered list",
+        "bold": "Negita(Bold)",
+        "italic": "Inclinada(Italic)",
+        "code": "Codigo",
+        "ordered-list": "lista ordenada",
+        "unordered-list": "lista no ordenada",
         "quote": "Quote",
         "link": "Link",
-        "horizontal-rule": "Horizontal rule",
-        "toggle-preview": "Toggle preview"
+        "horizontal-rule": "regla Horizontal",
+        "toggle-preview": "Cambiar vista"
     },
     "bufferEditor": {
-        "title": "Buffer editor",
-        "modeString": "Handle as UTF-8 String",
-        "modeArray": "Handle as JSON array",
-        "modeDesc":"<h3>Buffer editor</h3><p>The Buffer type is stored as a JSON array of byte values. The editor will attempt to parse the entered value as a JSON array. If it is not valid JSON, it will be treated as a UTF-8 String and converted to an array of the individual character code points.</p><p>For example, a value of <code>Hello World</code> will be converted to the JSON array:<pre>[72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100]</pre></p>"
+        "title": "editor Buffer",
+        "modeString": "Manejar como texto tipo UTF-8",
+        "modeArray": "Manejar como  JSON",
+        "modeDesc":"<h3>editor Buffer</h3><p>The Buffer type is stored as a JSON array of byte values. The editor will attempt to parse the entered value as a JSON array. If it is not valid JSON, it will be treated as a UTF-8 String and converted to an array of the individual character code points.</p><p>For example, a value of <code>Hello World</code> will be converted to the JSON array:<pre>[72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100]</pre></p>"
     },
     "projects": {
         "config-git": "Configure Git client",
@@ -809,7 +809,7 @@
             "ssh-key-desc": "Before you can clone a repository over ssh you must A&ntilde;adir an SSH key to access it.",
             "ssh-key-add": "A&ntilde;adir an ssh key",
             "credential-key": "Credentials encryption key",
-            "cant-get-ssh-key": "Error! Can't get selected SSH key path.",
+            "cant-get-ssh-key": "Error! Can't get seleccionado SSH key path.",
             "already-exists2": "already exists",
             "git-error": "git error",
             "connection-failed": "Connection failed",
@@ -835,9 +835,9 @@
             "desc6": "Your flow credentials file is currently encrypted using a system-generated key. You should provide a nuevo secret key for this project.",
             "desc7": "The key will be stored separately from your project files. You will need to provide the key to use this project in another instance of Node-RED.",
             "credentials": "Credentials",
-            "enable": "Enable encryption",
-            "disable": "Disable encryption",
-            "disabled": "disabled",
+            "enable": "habilitar encryption",
+            "disable": "desabilitar encryption",
+            "disabled": "desabilitado",
             "copy": "Copy over existing key",
             "use-custom": "Use custom key",
             "desc8": "The credentials file will not be encrypted and its contents easily read",
@@ -866,7 +866,7 @@
             "opt": "Optional",
             "flow-file": "Flow file",
             "credentials": "Credentials",
-            "enable-encryption": "Enable encryption",
+            "enable-encryption": "habilitar encryption",
             "disable-encryption": "Disable encryption",
             "encryption-key": "Encryption key",
             "desc0": "A phrase to secure your credentials with",
@@ -886,14 +886,14 @@
             "con-failed": "Connection failed",
             "not-git": "Not a git repository",
             "no-resource": "Repository not found",
-            "cant-get-ssh-key-path": "Error! Can't get selected SSH key path.",
+            "cant-get-ssh-key-path": "Error! Can't get seleccionado SSH key path.",
             "unexpected_error": "unexpected_error"
         },
         "delete": {
             "confirm": "Are you sure you want to delete this project?"
         },
         "create-project-list": {
-            "search": "search your projects",
+            "search": "Buscar your projects",
             "current": "current"
         },
         "require-clean": {
@@ -905,7 +905,7 @@
             "password": "Password",
             "passphrase": "Passphrase",
             "retry": "Retry",
-            "update-failed": "Failed to update auth",
+            "update-failed": "Fallo al actualizar auth",
             "unhandled": "Unhandled error response"
         },
         "create-branch-list": {
